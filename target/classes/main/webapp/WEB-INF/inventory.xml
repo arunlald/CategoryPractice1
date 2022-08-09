@@ -7,9 +7,9 @@
     <mvc:annotation-driven/>
     <bean id="ds" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
-        <property name="url" value="jdbc:mysql://localhost:3306/inventory"></property>
-        <property name="username" value="root"></property>
-        <property name="password" value=""></property>
+        <property name="url" value="jdbc:mysql://us-cdbr-east-06.cleardb.net/heroku_515f1a46e90e2bc?reconnect=true"></property>
+        <property name="username" value="b6b83174cd28ee"></property>
+        <property name="password" value="4d80eca3"></property>
     </bean>
     <bean id="jt" class="org.springframework.jdbc.core.JdbcTemplate">
         <property name="dataSource" ref="ds"></property>

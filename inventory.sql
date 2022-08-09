@@ -26,11 +26,12 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `category`
 --
+use heroku_515f1a46e90e2bc;
 
 CREATE TABLE `category` (
   `catcode` varchar(5) NOT NULL,
   `catdesc` varchar(20) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `category`
